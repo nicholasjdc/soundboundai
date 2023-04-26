@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    background-color: #e8e8e8;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+}
+
+div#image {
+    text-align: center;
+    overflow-x: scroll;
+    margin-top: 50px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: 1em;
+}
+
+div.author {
+    color: #111;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+
+footer a,
+footer a:visited {
+    color: grey;
+}
+
+p.intro {
+    font-size: 120%;
+    max-width: 1000px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.legend {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+h1, h2, h3 {
+    color: steelblue;
+}
+
+dd a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
+
+ul.toc {
+column-count: 2;
+}
+
+@media only screen and (min-width: 600px) {
+ul.toc {
+column-count: 3;
+}
+}
+
+@media only screen and (min-width: 1000px) {
+ul.toc {
+column-count: 4;
+}
+}
